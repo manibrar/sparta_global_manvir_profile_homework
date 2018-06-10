@@ -1,4 +1,23 @@
 
-.carousel {
-  padding:0 0%;
+body {
+  background-image: radial-gradient(circle,purple 5%,black 40%);
+}
+
+.panel, #demo {
+  background-color: black;
+  color:lightgrey;
+}
+
+
+.carousel-indicators {
+  visibility: hidden;
+}
+
+.panel p, #statement {
+  font-weight: lighter;
+  text-align: center;
+}
+
+#hero img {
+  filter: grayscale(40%);
 }
