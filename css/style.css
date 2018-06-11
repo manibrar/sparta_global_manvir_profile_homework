@@ -1,11 +1,16 @@
 
 body {
-  background-image: radial-gradient(circle,purple 5%,black 40%);
+  background-image: url("../images/bg11.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
+  box-sizing: border-box;
+
 }
 
 .panel, #demo {
   background-color: black;
-  color:lightgrey;
+  color:white;
+  opacity: 0.9;
 }
 
 
@@ -16,8 +21,9 @@ body {
 .panel p, #statement {
   font-weight: lighter;
   text-align: center;
+  color: white;
 }
 
 #hero img {
-  filter: grayscale(40%);
+  filter: grayscale(30%);
 }
