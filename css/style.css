@@ -1,0 +1,29 @@
+
+body {
+  background-image: url("../images/bg11.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
+  box-sizing: border-box;
+
+}
+
+.panel, #demo {
+  background-color: black;
+  color:white;
+  opacity: 0.9;
+}
+
+
+.carousel-indicators {
+  visibility: hidden;
+}
+
+.panel p, #statement {
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+}
+
+#hero img {
+  filter: grayscale(30%);
+}
